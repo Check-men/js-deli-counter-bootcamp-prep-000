@@ -1,8 +1,8 @@
-function takeANumber(katzDeli, name) {
+function takeANumber(array, name) {
 
 }
 
-function nowServing(deliLine) {
+function nowServing(array) {
 
 }
 
