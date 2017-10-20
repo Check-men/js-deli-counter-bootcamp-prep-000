@@ -7,7 +7,7 @@ function nowServing(array) {
   if (array.length == 0) {
     return "There is nobody waiting to be served!"
   }else {
-    return `Currently serving ${array[0]}.`
+    return `Currently serving ${array.pop()}.`
   }
 }
 
