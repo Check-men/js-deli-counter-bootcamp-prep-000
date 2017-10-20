@@ -14,5 +14,12 @@ function nowServing(array) {
 function currentLine(array) {
   if (array.length == 0) {
     return "The line is currently empty."
+  } else {
+    var ans = "The line is currently: "
+    for (var i = 0; i < array.length; i++) {
+      
+    }
+    
+    return `The line is currently: 1. Bill, 2. Jane, 3. Ann`
   }
 }
