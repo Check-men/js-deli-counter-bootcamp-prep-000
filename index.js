@@ -20,6 +20,6 @@ function currentLine(array) {
 
     }*/
 
-    return `The line is currently: 1. Bill, 2. Jane, 3. Ann`
+    return `The line is currently: 1. ${array[0]}, 2. ${array[1]}, 3. ${array[2]}`
   }
 }
